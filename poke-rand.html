@@ -1,0 +1,24 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../x-pokemon/x-pokemon.html">
+
+<polymer-element name="poke-rand">
+    <template>
+        <x-pokemon name="{{name}}"></x-pokemon>
+    </template>
+    <script>
+        Polymer('poke-rand', {
+            created: function () {
+              var self = this;
+              var randNum = Math.floor(Math.random() * 718) + 1;
+              var req = new XMLHttpRequest();
+              req.onreadystatechange = function () {
+                if (req.status === 200 && req.readyState === 4) {
+                  self.name = JSON.parse(req.responseText).name;
+                }
+              }
+              req.open('GET', 'http://pokeapi.co/api/v1/pokemon/' + randNum, true);
+              req.send();
+            }
+        });
+    </script>
+</polymer-element>
