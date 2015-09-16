@@ -1,0 +1,10 @@
+{
+  "name": "poke-rand",
+  "version": "0.0.0",
+  "homepage": "https://github.com/manufacturedba/poke-rand",
+  "authors": [
+    "manufacturedba <manufacturedba@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT"
+}
