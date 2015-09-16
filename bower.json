@@ -6,5 +6,8 @@
     "manufacturedba <manufacturedba@gmail.com>"
   ],
   "main": "index.html",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "poke-rand": "*"
+  }
 }

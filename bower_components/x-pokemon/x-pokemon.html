@@ -1,0 +1,38 @@
+<!--
+/**
+ * @module Pokemon Element
+ */
+/**
+ * x-pokemon allows users to insert Pokemon into pages.
+ *
+ * Example:
+ *
+ *     <x-pokemon name="pikachu"></x-pokemon>
+ *
+ * @class x-pokemon
+ */
+-->
+<link href="../polymer/polymer.html" rel="import">
+
+<polymer-element name="x-pokemon" attributes="name">
+    <template>
+        <img class="pokemon" alt="{{name}}" src="http://img.pokemondb.net/artwork/{{name | toLowerCase}}.jpg">
+    </template>
+    <script>
+        Polymer('x-pokemon', {
+            /**
+             * Name of the pokemon to display.
+             *
+             * @attribute name
+             * @type string
+             * @default ''
+             */
+            name: '',
+            toLowerCase: function(value) {
+                if (value) {
+                  return value.toLowerCase();
+                }
+            }
+        });
+    </script>
+</polymer-element>

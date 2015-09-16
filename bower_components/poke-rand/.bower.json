@@ -1,0 +1,29 @@
+{
+  "name": "poke-rand",
+  "homepage": "https://github.com/manufacturedba/poke-rand",
+  "authors": [
+    "manufacturedba <manufacturedba@gmail.com>"
+  ],
+  "description": "Display random pokemon",
+  "main": "poke-rand.html",
+  "keywords": [
+    "pokemon",
+    "random",
+    "polymer",
+    "webcomponentsjs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "x-pokemon": "git://github.com/manufacturedba/x-pokemon#readyBowerInstall"
+  },
+  "_release": "516e1adb9e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "516e1adb9eda25afdb2f87517a811745e87111df"
+  },
+  "_source": "git://github.com/manufacturedba/poke-rand.git",
+  "_target": "*",
+  "_originalSource": "poke-rand",
+  "_direct": true
+}

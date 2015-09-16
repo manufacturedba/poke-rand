@@ -1,0 +1,35 @@
+{
+  "name": "x-pokemon",
+  "authors": [
+    "Pascal Hartig <passy@twitter.com>"
+  ],
+  "description": "A web component to display Pokemon",
+  "main": "x-pokemon.html",
+  "keywords": [
+    "pokemon",
+    "web-components",
+    "polymer"
+  ],
+  "license": "BSD",
+  "homepage": "https://github.com/passy/x-pokemon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "~0.5.2",
+    "polymer": "~0.5.2"
+  },
+  "_release": "c79cd89e23",
+  "_resolution": {
+    "type": "branch",
+    "branch": "readyBowerInstall",
+    "commit": "c79cd89e23d5bfd2b200caf4e4338b06ff173de0"
+  },
+  "_source": "git://github.com/manufacturedba/x-pokemon.git",
+  "_target": "readyBowerInstall",
+  "_originalSource": "git://github.com/manufacturedba/x-pokemon"
+}
